@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 /* General Reset */
 * {
   margin: 0;
@@ -87,10 +88,7 @@ font-size: 17px;
   font-weight: bold;
 }
 
-.product-info h2 span {
-  color: rgb(8, 8, 8);
-  font-weight: bold;
-}
+
 
 .product-info h3 {
 font-size: 32px;
@@ -112,12 +110,8 @@ color: rgba(255, 255, 255, 1);
   border-radius: 50%;
   border: 2px solid #E1E1E1;
   font-size: 10px;
+  height: 30px;
 }
-
-
-
-
-
 
 /* Carousel */
 .splide {
