@@ -4,7 +4,7 @@ const sectionData = {
   block: [
     {
       title: "Exquisite Watches",
-      subtitle: "Gold Luxury, Choose Us",
+      subtitle: "Gold Luxury, ",
       description:
         "Discover the Perfect Watch for Every Occasion and Elevate Your Style with Timeless Elegance and Precision Craftsmanship.",
       price: "$499.00",
@@ -67,6 +67,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const loadProductInfo = (product) => {
     productTitle.textContent = product.title;
     productSubtitle.textContent = product.subtitle;
+    const subtitleParts = product.subtitle.split("Choose Us");
+    productSubtitle.innerHTML = `${subtitleParts[0]}<span style="color: black;">Choose Us</span>${subtitleParts[1] || ""}`;
+  
     productDescription.textContent = product.description;
     productPrice.textContent = product.price;
 
