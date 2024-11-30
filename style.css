@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
 /* General Reset */
 * {
   margin: 0;
@@ -106,10 +107,13 @@ color: rgba(255, 255, 255, 1);
 
 }
 
-.social-icon{
+.social-icon {
+  width: 35px;
+  height: 60px;
   border-radius: 50%;
   border: 2px solid #E1E1E1;
   font-size: 10px;
+  padding: 8px;
   height: 30px;
 }
 
@@ -129,10 +133,7 @@ color: rgba(255, 255, 255, 1);
   margin-top: 10px;
 }
 
-.social-icon {
-  width: 24px;
-  height: 24px;
-}
+
 
 .body1 {
   background: linear-gradient(105.54deg, #F4A764 -2.93%, #FFDEC2 72.14%);
@@ -195,7 +196,7 @@ top: 240px;
 gap: 0px;
 opacity: 0px;
 font-family: Poppins;
-font-size: 24px;
+font-size: 20px;
 font-weight: 600;
 line-height: 45.6px;
 text-align: left;
