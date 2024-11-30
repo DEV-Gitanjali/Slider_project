@@ -19,7 +19,7 @@ const sectionData = {
       description:
         "Explore the Ideal Timepiece for Any Moment and Enhance Your Style with Timeless Sophistication and Impeccable Craftsmanship - timepiece.",
       price: "$469.00",
-      images: "image/Watch2.png",
+      images: "image/watch2.png",
       color: "body2",
       icons: ["icon/icon1.png", "icon/icon2.png", "icon/icon3.png"],
       
